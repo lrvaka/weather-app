@@ -1,0 +1,49 @@
+input {
+        width: 20%;
+        height: 2.5rem;
+        font-size: inherit;
+        font-family: inherit;
+        border: 0.125rem solid;
+        border-color: transparent;
+        outline: none;
+        background-color: #ebedef;
+        color: currentcolor;
+        border-radius: 0.5rem;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        transition: all 0.5s ease-in-out;
+}
+
+.City {
+    margin-left: 50px;
+}
+
+input:focus {
+    border-color: red;
+    box-shadow: 0 0 0 0.15rem #c4e7ff;
+}
+
+button {
+    width: 100px;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+    outline:none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 10p;
+}
+
+form {
+    width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
